@@ -5,7 +5,6 @@ import sangria.parser.QueryParser
 import spray.json.{JsObject, JsString, JsValue}
 import akka.http.scaladsl.model.StatusCodes._
 import akka.http.scaladsl.server.Directives._
-import scala.concurrent.ExecutionContext
 import scala.util.{Failure, Success}
 import akka.http.scaladsl.server._
 import sangria.ast.Document
